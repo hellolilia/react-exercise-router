@@ -1,0 +1,35 @@
+.app {
+    width: 600px;
+    height: 400px;
+    border: solid;
+    border-color: darkgrey;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    width: 600px;
+    height: 50px;
+    background: lightgrey;
+    padding: 5px 0 5px 0;
+    font-size: 16px;
+    border-bottom: solid;
+    border-color: darkgrey;
+}
+
+ul {
+    width: 530px;
+ }
+
+li {
+    width: 90px;
+    list-style-type: none;
+    float:right;
+    display: inline;
+    font-weight: bold;
+    color: dimgray;
+}
+
+navlink activeStyle {
+    color: red;
+}
