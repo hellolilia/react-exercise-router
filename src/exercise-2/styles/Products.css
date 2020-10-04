@@ -1,0 +1,10 @@
+.products {
+    text-align: left;
+    margin: 30px auto auto 30px;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.products a:link {
+    text-decoration: none;
+}

@@ -8,10 +8,11 @@ class AboutUs extends Component {
     render() {
         return(
             <div className='aboutUs'>
-                <p>Company:ThoughtWorks Local</p>
-                <p>Location:Xi'an</p>
+                <p>Company: ThoughtWorks Local</p>
+                <p>Location: Xi'an</p>
+                <br />
                 <p>For more information, please</p>
-                <p>view our <Link to='/'>website</Link></p>
+                <p>view our <Link to='/'>website</Link>.</p>
             </div>
         );
     }

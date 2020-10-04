@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import DataList from "../mockups/data.json";
+import '../styles/ProductDetails.css'
 
 class ProductDetails extends Component {
     constructor(props) {
@@ -17,12 +18,12 @@ class ProductDetails extends Component {
         return (
             <div className="detail">
                 <p className="productTitle">Product Details: </p>
-                <p>Name:{product.name}</p>
-                <p>Id:{product.id}</p>
-                <p>Price:{product.price}</p>
-                <p>Quantity:{product.quantity}</p>
-                <p>Desc:{product.desc}</p>
-                <p>URL:products/{product.id}</p>
+                <p>Name: {product.name}</p>
+                <p>Id: {product.id}</p>
+                <p>Price: {product.price}</p>
+                <p>Quantity: {product.quantity}</p>
+                <p>Desc: {product.desc}</p>
+                <p>URL: /products/{product.id}</p>
             </div>
         )
     }

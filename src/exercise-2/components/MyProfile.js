@@ -6,10 +6,10 @@ class MyProfile extends Component {
     render() {
         return(
             <div className='myProfile'>
-                <p>Username:XXX</p>
-                <p>Gender:Female</p>
-                <p>Work:IT Industry</p>
-                <p>Website:'/my-profile'</p>
+                <p>Username: XXX</p>
+                <p>Gender: Female</p>
+                <p>Work: IT Industry</p>
+                <p>Website: '/my-profile'</p>
             </div>
         );
     }
