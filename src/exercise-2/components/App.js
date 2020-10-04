@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import '../styles/App.css';
-import {BrowserRouter as Router, NavLink, Route} from 'react-router-dom';
+import {BrowserRouter as Router, NavLink, Route, Switch} from 'react-router-dom';
 import Home from "./Home";
 import MyProfile from "./MyProfile";
 import AboutUs from "./AboutUs";
 import Products from "./Products"
 import ProductDetails from "./ProductDetails"
+import {Redirect} from "react-router";
 
 class App extends Component {
   render() {
@@ -20,13 +21,15 @@ class App extends Component {
                     <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
                 </ul>
             </header>
-            <switch>
+            <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/my-profile' component={MyProfile} />
               <Route path='/about-us' component={AboutUs} />
               <Route exact path='/products' component={Products} />
               <Route path='/products/:id' component={ProductDetails} />
-            </switch>
+              <Redirect from='/goods' to='/products' />
+              <Redirect to='/' />
+            </Switch>
         </Router>
       </div>
 
