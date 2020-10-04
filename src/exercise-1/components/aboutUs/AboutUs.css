@@ -6,5 +6,9 @@
 }
 
 p a {
-     color: red;
- }
+    color: red;
+}
+
+p a:link {
+    text-decoration: underline;
+}
