@@ -1,0 +1,14 @@
+.aboutUs {
+    text-align: left;
+    margin: 30px auto auto 30px;
+    color: dimgray;
+
+}
+
+p a {
+    color: red;
+}
+
+p a:link {
+    text-decoration: underline;
+}
